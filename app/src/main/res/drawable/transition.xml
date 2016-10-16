@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<transition xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/img_1">
+
+    </item>
+
+
+    <item android:drawable="@drawable/img_12">
+
+    </item>
+
+<!--transition是layerdrawer的子类
+transition中只能有两个Item
+并实现两个Item之间的相互转换
+实现颜色明暗渐变的动画效果-->
+
+</transition>

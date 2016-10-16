@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset xmlns:android="http://schemas.android.com/apk/res/android"
+   android:drawable="@drawable/img_2"
+    android:insetLeft="50dp"
+    android:insetBottom="50dp"
+    android:insetRight="50dp"
+    android:insetTop="50dp">
+
+    <!--InsetDrawable表示一个drawable 嵌入到另一个
+            draw able内部，并且在内部流一些间距，这一点像drawable的Padding属性
+             android:insetRight="50dp" 设置间距-->
+
+</inset>

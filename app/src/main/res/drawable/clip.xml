@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clip xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/img_12"
+    android:clipOrientation="horizontal"
+    android:gravity="left"
+    >
+
+    <!--clip是对Drawable 进行剪切
+     android:clipOrientation="horizontal"  横向裁剪
+    android:gravity="left"  对齐方式左对齐-->
+</clip>

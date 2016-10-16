@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:drawable="@drawable/android1"
+        android:minLevel="6"
+        android:maxLevel="10"
+    >
+
+    </item>
+
+    <item
+        android:drawable="@drawable/android2"
+        android:minLevel="12"
+        android:maxLevel="20">
+    </item>
+
+
+    <!--level-list 管理一组drawable
+    两个item控制两张照片
+     android:minLevel="6"
+        android:maxLevel="10"
+        这个表示当调用Drawable的 imageView.setImageLevel(15);
+        时只要括号里面的值在item的MinLevel和MaxLevel值
+        区间内的任意一个值时就用该item的值  android:drawable="@drawable/xxxx"
+
+    -->
+
+
+</level-list>

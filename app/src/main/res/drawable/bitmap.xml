@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bitmap xmlns:android="http://schemas.android.com/apk/res/android"
+    android:src="@mipmap/ic_launcher"
+    android:tileMode="mirror"
+    android:antialias="true"
+    android:dither="true"
+    >
+
+    <!--android:tileMode="mirror" 表示平铺
+    android:antialias="true" 表示内部平滑连接
+    android:dither="true"  设置十是否运行走动 默认为true-->
+</bitmap>
